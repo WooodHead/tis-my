@@ -1,0 +1,26 @@
+#tis-root {
+    width: 280px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    margin: -200px -140px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    /*box-shadow:0 0 30px #000;*/
+}
+
+#tis-grid {
+    width: 200px;
+    height: 400px;
+}
+
+#tis-status {}
+
+.tile {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border:1px solid gray;
+    /*box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.4) inset, 0 0 2px #000 inset;*/
+}
